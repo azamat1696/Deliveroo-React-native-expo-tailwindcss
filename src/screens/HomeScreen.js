@@ -40,7 +40,9 @@ import FeaturedRow from "../components/FeaturedRow";
             </View>
             <UserIcon size={35} color="#00ccbb" />
         </View>
+
         {/* Search Bar */}
+
         <View className="flex-row items-center space-x-2 pb-2 mx-4">
             <View className="flex-row space-x-2 bg-gray-200 p-3 flex-1">
                 <MagnifyingGlassIcon size={20} color="gray" />
@@ -51,6 +53,7 @@ import FeaturedRow from "../components/FeaturedRow";
             </View>
             <AdjustmentsVerticalIcon size={35} color="#00ccbb" />
         </View>
+
         {/* body */}
         <ScrollView
             className="bg-gray-100"
